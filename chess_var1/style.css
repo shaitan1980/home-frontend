@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 50px 0;
+}
+
+.container {
+	width: 816px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	background: #eee;
+	border: 1px solid #000;
+}
+
+.white {
+	background: #fff;
+}
+
+.black {
+	background: #000;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			padding: 30px 0;
+			text-align: center;
+		}
+		.black, .white {
+			width: 70px;
+			height: 70px;
+			background: #fff;
+			display: inline-block;
+			border: 1px solid #000;
+			vertical-align: middle;
+		}
+		.black {
+			background: #000;
+		}
+	</style>
+	<script>
+		for (var i = 1; i <= 8; i++ ) {
+			if (i % 2) {
+				for (var j = 1; j <= 4; j++) {
+					document.write('<div class="black"></div><div class="white"></div>');
+				}	
+			} else {
+				for (var j = 1; j <= 4; j++) {
+					document.write('<div class="white"></div><div class="black"></div>');
+				}
+			}
+			document.write('</br>');
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
