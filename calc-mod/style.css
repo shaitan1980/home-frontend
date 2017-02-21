@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 50px 0;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container h1 {
+	margin-bottom: 15px;
+}
+
+.container .form-input {
+	padding: 10px;
+}
+
+#result {
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+	padding: 15px 0;
+}
+
+form p {
+	padding: 10px 0;
+}
