@@ -1,0 +1,16 @@
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #ddd;
+    margin: 0 auto;
+}
+
+.moove-fig {
+    width: 30px;
+    height: 30px;
+    background: #684eff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
